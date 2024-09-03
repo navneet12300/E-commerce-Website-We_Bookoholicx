@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>booking form</title>
+    <style>
+        h1 {
+            text-align: center;
+            color:black;
+        }
+        .body_f{
+            text-align: left;
+            margin-left: 450px;
+            padding: 50px;
+            background-color: white;
+        }
+        body{
+          
+            background-image: url('img/books-seamless-pattern-literature-reading-education-bookstore-science-various-books-background-wallpaper-textile-wrapping-paper-hand-draw-illustration-vector.jpg');
+        
+            
+            
+        }
+        div{
+            box-shadow: 10px 10px;
+            color: rgb(126, 102, 102);
+            width: 500px;
+            height: 500px;
+            
+        }
+        img{
+            width: 115px;
+            height: 115px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="red">
+        <h1>MEMBERSHIP FORM</h1>
+        <div class="body_f"><p>Required Fields are follows by *</P>
+        <h2>Contact Information</h2>
+            <p>NAME:*<input type="text" name="name" required></p>
+
+                <legend>GENDER</legend>
+                <p>
+                    MALE*<input type="radio" name="gender" id="male" required> FEMALE*<input type="radio" name="gender"
+                        id="female" required>
+                </p>
+            <p>ADDRESS:<textarea name="adress" id="adress" cols="17" rows="1"></textarea></p>
+            <p>E-MAIL:*<input type="email" name="email" id="email" required></p>
+            <p>PIN-CODE:*<input type="pincode" name="pincode" id="pincode" required></p>
+            <h2>PAYMENT INFORMATION</h2>
+            <P>
+                SCAN THE BELOW QR CODE TO PAY WITH UPI 
+                <BR>
+                <IMG src="img/WhatsApp Image 2023-11-06 at 11.00.22_7fb47f7a.jpg">
+            </P>
+        
+            <input type="submit" value="pay now">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+.background{
+    background-color: rgb(133,5,5);
+    width: 1520px;
+    height: 750px;
+    position: fixed;
+}
+a{
+    font-size: 20px;
+    margin-left: 1440px;
+    background-color: black;
+    color: aliceblue;
+    width: fit-content;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+nav a{
+    font-size: 20px;
+    color: bisque;
+    margin: 7;
+    text-decoration: none;
+    padding: 2px ;
+
+}
+nav{
+    margin-top: 20px;
+}
+div{
+    background-color: black;
+    width: 1520px;
+    height: 110px;
+    align-items: center;
+    text-align: center;
+}
+div img{
+    width: 170px;
+    height: 110px;
+}
+div h1{
+    color: aliceblue;
+    display: inline;
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+span img{
+    background-color: rgb(133,5,5);
+    width: 430px;
+    height: 430px;
+    margin-left: 1100px;
+    display: inline-block;
+    margin-top: -300px;
+}
+span p{
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: left;
+    display: inline-block;
+margin-top: -100;
+    margin-right: 400px;
+
+}
+span h4{
+    display: inline-block;
+    font-size: 40px;
+    color: blanchedalmond;
+    margin-right: 700px;
+    margin-top: 180px;
+}
